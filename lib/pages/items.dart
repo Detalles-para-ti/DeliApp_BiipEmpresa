@@ -155,7 +155,7 @@ class _ItemsPageState extends State<ItemsPage> {
               children: <Widget>[
                 GFButton(
                   onPressed: () => _navigateToItem(context, item.id, item.name,shop,item),
-                  text: 'Ver producto',
+                  text: 'Ver productos',
                   shape: GFButtonShape.pills,
                 ),
               ],
